@@ -1,0 +1,26 @@
+{
+  "name": "svelteup-starter",
+  "version": "1.0.0",
+  "description": "A simple starter with svelteup",
+  "main": "index.js",
+  "scripts": {
+    "dev": "svelteup -d",
+    "build": "svelteup",
+    "format": "prettier --write --plugin-search-dir=. ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "svelte": "^3.0.0"
+  },
+  "devDependencies": {
+    "svelteup": "^2.0.0",
+    "eslint": "^8.0.0",
+    "eslint-plugin-svelte3": "^3.0.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier-plugin-svelte": "^2.6.0",
+    "prettier": "^2.0.0"
+  }
+}
